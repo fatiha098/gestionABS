@@ -1,0 +1,12 @@
+{
+    "responsableRH": [
+      {
+        "id": 1,
+        "nom": "Bernard",
+        "prenom": "Claire",
+        "email": "admin@email.com",
+        "password": "123456"
+      }
+    ]
+  }
+  

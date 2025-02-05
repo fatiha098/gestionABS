@@ -1,0 +1,26 @@
+{
+    "absences": [
+      {
+        "employe_id": 1,
+        "date": "2025-02-03",
+        "statut": "Absent",
+        "motif": "Congé payé",
+        "heure_sortie": null
+      },
+      {
+        "employe_id": 2,
+        "date": "2025-02-02",
+        "statut": "Absent",
+        "motif": "Maladie",
+        "heure_sortie": null
+      },
+      {
+        "employe_id": 3,
+        "date": "2025-02-04",
+        "statut": "En sortie autorisée",
+        "motif": "Rendez-vous médical",
+        "heure_sortie": "14:30"
+      }
+    ]
+  }
+  
