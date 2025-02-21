@@ -1,136 +1,24 @@
 {
   "employes": [
+    
     {
       "id": 1,
-      "nom": "Dupont",
-      "prenom": "Pierre",
-      "poste": "Développeur",
-      "date_embauche": "2022-01-15",
-      "statut": "Présent",
-      "absence": []
+      "name": "Ahmed Benali",
+      "role": "Développeur",
+      "managerId": 101
     },
     {
       "id": 2,
-      "nom": "Martin",
-      "prenom": "Sophie",
-      "poste": "Designer",
-      "date_embauche": "2021-05-20",
-      "statut": "Absent",
-      "absence": [
-        {
-          "date": "2025-02-01",
-          "motif": "Maladie",
-          "heure_sortie": null
-        }
-      ]
+      "name": "Fatima El Arabi",
+      "role": "Designer",
+      "managerId": 102
     },
     {
       "id": 3,
-      "nom": "Lemoine",
-      "prenom": "Julien",
-      "poste": "Chef de projet",
-      "date_embauche": "2019-08-10",
-      "statut": "En sortie autorisée",
-      "absence": [
-        {
-          "date": "2025-02-04",
-          "motif": "Congé",
-          "heure_sortie": "14:30"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "nom": "Bernard",
-      "prenom": "Claire",
-      "poste": "Responsable RH",
-      "date_embauche": "2018-11-30",
-      "statut": "Présent",
-      "absence": []
-    },
-    {
-      "id": 5,
-      "nom": "Moreau",
-      "prenom": "Lucas",
-      "poste": "Technicien",
-      "date_embauche": "2020-06-25",
-      "statut": "Absent",
-      "absence": [
-        {
-          "date": "2025-02-02",
-          "motif": "Congé",
-          "heure_sortie": null
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "nom": "Lefebvre",
-      "prenom": "Emma",
-      "poste": "Assistante administrative",
-      "date_embauche": "2023-03-12",
-      "statut": "En retard",
-      "absence": [
-        {
-          "date": "2025-02-04",
-          "motif": "Problème de transport",
-          "heure_sortie": null
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "nom": "Dubois",
-      "prenom": "Nicolas",
-      "poste": "Analyste",
-      "date_embauche": "2017-09-05",
-      "statut": "En sortie autorisée",
-      "absence": [
-        {
-          "date": "2025-02-05",
-          "motif": "RDV banque",
-          "heure_sortie": "10:00"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "nom": "Fontaine",
-      "prenom": "Elodie",
-      "poste": "Ingénieure DevOps",
-      "date_embauche": "2016-12-01",
-      "statut": "Présent",
-      "absence": []
-    },
-    {
-      "id": 9,
-      "nom": "Roux",
-      "prenom": "Alexandre",
-      "poste": "Support IT",
-      "date_embauche": "2020-02-14",
-      "statut": "Absent",
-      "absence": [
-        {
-          "date": "2025-02-03",
-          "motif": "Congé",
-          "heure_sortie": null
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "nom": "Girard",
-      "prenom": "Isabelle",
-      "poste": "Consultante",
-      "date_embauche": "2015-07-22",
-      "statut": "En retard",
-      "absence": [
-        {
-          "date": "2025-02-04",
-          "motif": "Embouteillage",
-          "heure_sortie": null
-        }
-      ]
+      "name": "Yassine Mourad",
+      "role": "Chef de projet",
+      "managerId": 101
     }
+
   ]
 }

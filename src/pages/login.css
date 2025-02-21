@@ -1,0 +1,75 @@
+/* Style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style du conteneur principal */
+  .container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    justify-content: center;
+    margin-top: 70%;
+
+    h2{
+        margin: 10px auto;
+    }
+
+  }
+  
+  /* Style du formulaire */
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  /* Style des champs du formulaire */
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #007BFF;
+  }
+  
+  /* Style du bouton de soumission */
+  button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style du message d'erreur */
+  p {
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Style du texte de bienvenue */
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  

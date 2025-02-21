@@ -30,7 +30,8 @@ function App() {
   return (
     <>
         <Routes>
-          <Route path='/' element={<Dashboard employes={employes}/>}></Route>
+          <Route path='/login' element={<Login employes={employes}/>}></Route>
+          <Route path='/' element={<Dashboard absences={absences}/>}></Route>
           <Route path='/editStatut' element={<EditStatut employes={employes}/>}></Route>
           <Route path='/login' element={<Login responsableRH={responsableRH}/>}></Route>
         </Routes>

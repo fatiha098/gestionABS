@@ -1,12 +1,20 @@
 {
     "responsableRH": [
-      {
-        "id": 1,
-        "nom": "Bernard",
-        "prenom": "Claire",
-        "email": "admin@email.com",
-        "password": "123456"
-      }
+      [
+        {
+          "id": 101,
+          "name": "Sami Othman",
+          "email": "sami.othman@entreprise.com",
+          "password": "pass123",
+          "role": "Manager RH"
+        },
+        {
+          "id": 102,
+          "name": "Leila Amrani",
+          "email": "leila.amrani@entreprise.com",
+          "password": "secure456",
+          "role": "Manager RH"
+        }
+      ]
     ]
   }
-  

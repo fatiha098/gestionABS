@@ -51,13 +51,13 @@ button:hover{
   color: blue;
   transition: 0.5s;
 }
-/* button:hover {
+button:hover {
   border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-} */
+}
 
 @media (prefers-color-scheme: light) {
   :root {
