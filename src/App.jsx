@@ -10,7 +10,7 @@ function App() {
   
   const [employes, setEmployes] = useState([]);
   const [responsableRH, setResponsablesRH] = useState([]);
-  const [absences, setAbsences] = useState([]);
+  const [demandes, setDemandes] = useState([]);
 
   useEffect(() => {
 
@@ -23,7 +23,7 @@ function App() {
     .catch(error => console.log('error', error))
 
     axios.get('/data/absences.json')
-    .then(response => setAbsences(response.data.absences))
+    .then(response => setDemandes(response.data.absences))
     .catch(error => console.log('error', error))
   }, [])
 
@@ -31,7 +31,7 @@ function App() {
     <>
         <Routes>
           <Route path='/login' element={<Login employes={employes}/>}></Route>
-          <Route path='/' element={<Dashboard absences={absences}/>}></Route>
+          <Route path='/' element={<Dashboard demandes={demandes}/>}></Route>
           <Route path='/editStatut' element={<EditStatut employes={employes}/>}></Route>
           <Route path='/login' element={<Login responsableRH={responsableRH}/>}></Route>
         </Routes>
